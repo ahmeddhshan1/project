@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+body{
+    background-color: #02353c;
+}
+.container{
+    display: flex;
+}
+.childImg{
+    background-image: url("child@2x2.png");
+    background-size: cover;
+    height: 713px;
+    width: calc(100%/2.8);
+    margin: -8px;
+}
+.content{
+    background-color: #02353c;
+    background-size: cover;
+    height: 713px;
+    width: calc(100%/1.2);
+    margin: -8px;
+}
+.logo{
+    height: calc(100%/9);
+    flex-direction: row;
+    display: flex;
+    justify-content:end;
+}
+.logo .nabta{
+    margin: 10px;
+}
+.button{
+    display: flex;
+    justify-content: end;
+    margin: 100px;
+    margin-right:20px;
+    justify-content: space-evenly;
+}
+.login{
+    width: 300px;
+    background-color: #30AE7D;
+    font-size: 40px;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+    padding: 10px 10px;
+    color: #02353c ;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    border-width:5px;
+    border-color: rgba(255, 255, 255, 0);
+    transition: all .5s;
+}
+.login:hover{
+    background: #fff;
+    width: 350px;
+}
+.signup{
+    color: #30AE7D ;
+    width: 300px;
+    background-color: #02353c ;
+    font-size: 40px;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+    padding: 10px 10px;
+    border-color: #30AE7D;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    border-width: 5px;
+    transition: all .5s;
+    
+}
+.signup:hover{
+    color: #fff ;
+    border-color: #fff;
+    width: 350px;
+   
+}
+.font{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-right: 40px;
+    justify-content: flex-end;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+    margin-top: 10%;
+}
+.bigfont{
+    color: #fff;
+    font-size: 90px;
+    font-weight: bolder;
+    padding-right: 20px;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+}
+.disfont{
+    color: #fff;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: right;
+    width: calc(100%/1.5);
+    margin-top: 10px;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+    padding-right: 20px;
+}
+.back{
+    color: #30AE7D ;
+    width: 300px;
+    background-color: #02353c ;
+    font-size: 40px;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+    padding: 10px 10px;
+    border-color: #30AE7D;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    border-width: 5px;
+    transition: all .5s;
+    
+}
+.back:hover{
+    color: #fff ;
+    border-color: #fff;
+    width: 350px;
+   
+}
+.submit{
+    color: #30AE7D ;
+    width: 200px;
+    background-color: #02353c ;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+    padding: 10px 10px;
+    border-color: #30AE7D;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    border-width: 5px;
+    transition: all .5s;
+
+}
+.submit:hover{
+    color: #fff ;
+    border-color: #fff;
+    width: 250px;
+}
+.signUpLabel{
+    max-width: 700px;
+    width: 100%;
+    color: #30AE7D;
+    text-align: center;
+    margin: auto;
+    border: solid 5px;
+    border-color: #30AE7D;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+.signUpLabel .textlable{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #30AE7D;
+    position: relative;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: -50px;
+    background-color: #02353c;
+    width: 300px;
+    margin-right: 200px;
+}
+form label{
+    position: relative;
+}
+.userDetails{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 12px 0;
+    font-size: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+}
+form .userDetails .input-box{
+    margin-bottom: 5px;
+    width: calc(100% / 2.2);
+    margin-top: 0px;
+}
+.userDetails .input-box .details{
+    font-weight: bold;
+    display: block;
+}
+.userDetails .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background-color: #02353c;
+    border: 1px solid #30AE7D;
+    color: #30AE7D;
+    padding-right:15px ;
+    font-size: 16px;
+}
+.userDetails .input-box input:focus,
+.userDetails .input-box input:valid{
+    border-color: #30AE7D;
+}
+form .gender-details{
+    width: calc(100%/2.2);
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+
+}
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+form .gender-details .category{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border:solid 1px;
+    border-color: #30AE7D;
+    align-items: flex-start;
+    border-radius: 5px;
+    height: 45px;
+    padding-top: 4px;
+}
+.gender-details .category label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+}
+.gender-details .category label .dot{
+    height: 14px;
+    width: 14px;
+    background: #086458;
+    border-radius: 5px;
+    margin-right:10px ;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+}
+#dot-1:checked ~ .category  label .one,
+#dot-2:checked ~ .category  label .two{
+    border-color: #086458;
+    background-color: #30AE7D;
+    border-radius: 50%;
+}
+form input[type="radio"]{
+    display: none;
+}
+.gender-details .category label .gender{
+    margin-right: 10px ;
+}
+@media(max-width: 584px)
+{
+    .container
+    {
+     max-width: 100%;
+    }
+   form .user-details .input-box
+   {
+       margin-bottom: 15px;
+       width: 100%;
+    }
+    form .category
+    {
+       width: 100%;
+    }
+    .content form .user-details{
+       max-height: 300px;
+       overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+       width: 5px;
+     }
+} 
+@media(max-width: 459px)
+{
+    .container .content .category
+    {
+       flex-direction: column;
+    }
+}   
+#history{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background-color: #02353c;
+    border: 1px solid #30AE7D;
+    color: #30AE7D;
+    padding-left:2px ;
+    text-align: end;
+    font-size: 16px;
+}
+.already{
+    color: #067c6c;
+    text-align: center;
+}
+a{
+    color: #30AE7D;
+}
+#history::-webkit-calendar-picker-indicator {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+    filter: invert(.7);
+    cursor: pointer;
+}
+.loginlable{
+    max-width: 700px;
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #30AE7D;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    border: solid 5px;
+    border-color: #30AE7D;
+    
+}
+.loginlable .textlable{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #30AE7D;
+    position: relative;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: -50px;
+    background-color: #02353c;
+    width: 300px;
+    margin-right: 200px;
+}
+form label{
+    position: relative;
+}
+.userDetails2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tajawal', sans-serif;
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+}
+form .userDetails2 .input-box{
+    width: calc(100% / 2);
+    margin-top:20px;
+
+}
+.userDetails2 .input-box .details{
+    font-weight: bold;
+    display: block;
+}
+.userDetails2 .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background-color: #02353c;
+    border: 1px solid #30AE7D;
+    color: #30AE7D;
+    padding-right:15px ;
+    font-size: 16px;
+}
+.userDetails2 .input-box input:focus,
+.userDetails2 .input-box input:valid{
+    border-color: #30AE7D;
+}
