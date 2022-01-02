@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="rlt">
+    <head>
+     <meta charset="utf-8"/>
+     <meta http-equiv="X-UA-Compatible" content="device-width"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>طلب أداة </title>
+     <link rel="stylesheet" href="tempstyle.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar" dir="rtl">
+                <div class="logo">
+                    <img src="logo2.png" alt="logo"  class="nabta">
+                 </div>
+                <ul class="links">
+                    <li class="pationt"  ><a href="المرضى.html"> المرضى
+                    </a></li>
+                    <li class="employee" ><a href="الموظفين.html"> الموظفين 
+                    </a></li>
+                    <li class="spicialest" ><a href="الأخصائيين.html"> الأخصائيين 
+                    </a></li>
+                    <li class="tools" id="tools"><a href="الأدوات.html">الأدوات 
+                    </a></li>
+                  </ul>
+                 <div class="out">
+                    <i class="material-icons"><a href="HOME_PAGE1.html">home</a></i>
+                    <a href="HOME_PAGE.html"> 
+                    <button class="outnavbut"> خروج</button> </a>
+                </div>
+
+            </div>
+            <div class="content">
+                <span class="pageName">طلب أداة </span>
+                <div class="edpage" dir="rtl">
+                    <form class="addform" action="#">
+                       <div class="pUserDetails">
+                           <div>
+                                <div class="input-box">
+                                    <span class="details">الاسم</span>
+                                    <input type="text" placeholder=" أدخل اسم الأداة"  required>
+                                </div>
+                                <div class="input-box">
+                                    <span class="details">رقم الأداة</span>
+                                    <input   type="text" placeholder=" رقم الأداة" maxlength="14" minlength="7" pattern="[0-9-٠-٩]{14}" required>
+                                </div>
+                                <div class="input-box">
+                                    <span class="details">الوصف</span>
+                                    <input type="text" placeholder="الوصف" required >
+                                </div>
+                                <div class="input-box">
+                                    <span class="details">السعر</span>
+                                    <input type="text" placeholder="السعر"  maxlength="4" minlength="1"  pattern="[0-9-٠-٩]{4}" required >
+                                </div>
+                                <div class="input-box">
+                                    <span class="details">ID المريض</span>
+                                    <input type="text" placeholder="ID المريض"  maxlength="7" minlength="1" pattern="[0-9-٠-٩]{1}}" required>
+                                </div>
+                           </div>
+                            <div>
+                                <div class="input-box" id="eddep">
+                                    <div>
+                                        <span class="details">القسم</span>
+                                    </div>
+                                   <div id="check" class="other">
+                                        <div>
+                                            <input type="checkbox" id="check1">
+                                            <label for="check1">التوحد</label>
+                                            <input type="checkbox" id="check2">
+                                            <label for="check2">بطء التعلم</label>
+                                            <input type="checkbox" id="check3">
+                                            <label for="check3">التأخر الذهني</label>
+                                            <input type="checkbox" id="check4">
+                                            <label for="check4">صعوبات التعلم</label>
+                                            <input type="checkbox" id="check5">
+                                            <label for="check5">التأخر الدراسي</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" id="check6">
+                                            <label for="check6">الشلل الدماغي</label>
+                                            <input type="checkbox" id="check7">
+                                            <label for="check7">الضعف السمعي</label>
+                                            <input type="checkbox" id="check8">
+                                            <label for="check8">المتلازمات</label>
+                                            <input type="checkbox" id="check9">
+                                            <label for="check9">أمراض الكلام</label>
+                                            <input type="checkbox" id="check10">
+                                            <label for="check10">أمراض اللغة</label>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                       </div>
+                       <div class="button" dir="rtl">
+                        <button type="submit" class="subedietDe"> تعديل البيانات</button> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
